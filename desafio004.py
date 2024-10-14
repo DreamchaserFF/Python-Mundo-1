@@ -1,0 +1,11 @@
+valor = input("Digite algo: ")
+teste = type(valor)
+print("O tipo primitivo de {} é {}." .format(valor, teste))
+
+print("Apenas letras?", valor.isalpha())
+print("Apenas números?", valor.isdigit())
+print("É alfanumérico? ", valor.isalnum())
+print("É decimal?", valor.isdecimal())
+print("É numérico?", valor.isnumeric())
+print("Apenas letras minúsculas?", valor.islower())
+print("Apenas letras maiúsculas?", valor.isupper())
